@@ -1,5 +1,5 @@
 :root {
-  --vermelho: #e50914;
+  --amarelo: #c2b720;
   --preta: #141414;
 }
 
@@ -27,9 +27,9 @@ header .container {
 /* div que compoes o logo*/
 header .logo {
   margin-left: 5px;
-  color: var(--vermelho);
+  color: var(--amarelo);
   font-family: "Arial black", times;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 /* menus inicio - series - filmes - documetários*/
@@ -51,7 +51,7 @@ header nav a:hover {
 .filme-principal {
   font-size: 14px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
-    url("/img/capa-house.jpg");
+    url("/img/documentarios/capa.jpg");
   font-family: tahoma, sans-serif;
 
   height: 400px;
@@ -66,12 +66,15 @@ header nav a:hover {
 .filme-principal .descricao {
   margin-top: 10px;
   margin-bottom: 40px;
+  color: aqua;
 }
 
+/*cor do titulo principal*/
 .filme-principal .titulo {
   margin-top: 15%;
   font-size: 40px;
   font-family: "Trebuchet MS", Arial, sans-serif;
+  color: #c2b720;
 }
 
 /*tudo que compoes os botes assitir agora e mais informações*/
@@ -111,4 +114,8 @@ header nav a:hover {
   height: 100%;
   width: 100%;
   display: block;
+}
+
+.carrosel-filmes {
+  margin-top: 5px;
 }
